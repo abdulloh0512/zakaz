@@ -2,6 +2,8 @@
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
 }
 
 .container {
@@ -13,14 +15,21 @@
 }
 
 button {
-
+        width: 40%;
         padding: 10px 20px;
         margin-bottom: 20px;
+        cursor: pointer;
+        border: white 1px solid;
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
 }
 
